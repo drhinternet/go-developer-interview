@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int *generatePrimes(int n) {
-    // todo, generate n primes, return the pointer to the array
+    // todo: generate the first n primes, return the pointer to the array
 }
 
 int main(int argc, char **argv) {

@@ -7,6 +7,9 @@ struct duplicateNumbers {
 };
 
 struct duplicateNumbers findDuplicates(int in[], int num) {
+    // todo: return a list of numbers that are duplicated in the +in+ array
+    //       the duplicates need not be consecutive
+
     struct duplicateNumbers result = {
         .data = NULL,
         .num = 0,

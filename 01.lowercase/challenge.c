@@ -3,7 +3,7 @@
 #include <string.h>
 
 void convertToLowercase(char *str) {
-    // todo, convert in-place
+    // todo: convert in-place to simple ASCII lowercase
 }
 
 void printExample(char *in) {

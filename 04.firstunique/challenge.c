@@ -1,8 +1,10 @@
 #include <strings.h>
 #include <stdio.h>
 
-// Return the first unique (non-repeated) character in the string
 char firstunique(char *str) {
+    // todo: return the first unique (non-repeated, through the entire string) char in the string
+    //       return 0 if there are no unique characters
+
     return 0;
 }
 
