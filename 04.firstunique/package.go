@@ -5,7 +5,8 @@ package firstunique
 // Examples:
 //   - s="food" => 'f'
 //   - s="xxx" => 0
-//   - s="ffooood" => 'd'
+//   - s="ffooodooo" => 'd'
+//   - s="xyxzx" => 'y'
 func FirstUniqueRune(s string) rune {
 	return 0
 }

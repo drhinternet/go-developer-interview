@@ -25,7 +25,7 @@ func TestDeflateToBase64(t *testing.T) {
 		output := deflate.DeflateToBase64(test.input)
 
 		if output != test.expect {
-			t.Errorf("expected %v, got %v", test.expect, output)
+			t.Errorf("expected %q, got %q", test.expect, output)
 			continue
 		}
 

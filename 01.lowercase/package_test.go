@@ -21,7 +21,7 @@ func TestToLower(t *testing.T) {
 		output := lowercase.ToLower(test.input)
 
 		if output != test.expect {
-			t.Errorf("expected %v, got %v", test.expect, output)
+			t.Errorf("expected %q, got %q", test.expect, output)
 		}
 	}
 }
